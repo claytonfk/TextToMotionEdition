@@ -1,0 +1,23 @@
+{
+	"additional_title_msg": "",
+	"base_motion_path": "./our_dataset/base_motions/walk.npy",
+	"base_motion_text": "A person is walking",
+	"batch_size": 8,
+	"dataset_stats_dir": "./dataset/HumanML3D",
+	"device": "cuda",
+	"fps": 20,
+	"guidance_param": 2.5,
+	"insertion_mode": "video",
+	"lr_emb": 5e-3,
+	"lr_model": 1e-6,
+	"model_path": "./save/humanml_trans_enc_512/model000200000.pt",
+	"name": "test_diversity",
+	"num_frames": 196,
+	"num_samples": 6,
+	"num_steps_emb": 2000,
+	"num_steps_nn": 1500,
+	"output_dir": "./save/results",
+	"prob_base_training": 0.3,
+	"seed": 0,
+	"video_motion_path": "./our_dataset/base_motions/jump.npy"
+}

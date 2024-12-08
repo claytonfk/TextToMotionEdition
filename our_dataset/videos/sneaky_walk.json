@@ -1,0 +1,22 @@
+{
+	"base_motion_path": "./our_dataset/base_motions/walk.npy",
+	"base_motion_text": "A person walks",
+	"batch_size": 16,
+	"dataset_stats_dir": "./dataset/HumanML3D",
+	"device": "cuda",
+	"fps": 20,
+	"guidance_param": 2.5,
+	"insertion_mode": "video",
+	"lr_emb": 1e-3,
+	"lr_model": 1e-6,
+	"model_path": "./save/humanml_trans_enc_512/model000200000.pt",
+	"name": "sneaky_walk",
+	"num_frames": 196,
+	"num_samples": 6,
+	"num_steps_emb": 1500,
+	"num_steps_nn": 2500,
+	"output_dir": "./save/results",
+	"prob_base_training": 0.1,
+	"seed": 0,
+	"video_motion_path": "./our_dataset/videos/sneaky_walk.npy"
+}
